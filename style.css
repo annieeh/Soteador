@@ -54,8 +54,13 @@ input::placeholder {
     padding: 10px;
 }
 
-img {
+/* img {
     width: 300px;
+    height: auto;
+} */
+
+video {
+    width: 200px;
     height: auto;
 }
 
