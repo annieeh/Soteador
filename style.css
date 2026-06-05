@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Grand+Hotel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB J", cursive;
+}
+
+body {
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgba(162, 2, 255, 0.548);
+    text-align: center;
+    margin-top: 100px;
+    font-size: 100px;
+    font-weight: 800;
+
+}
+
+h2 {
+    color: rgba(162, 2, 255, 0.548);
+    text-align: center;
+
+
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    margin: 20px 15px 0 15px;
+    border-color: rgba(162, 2, 255, 0.548);
+    border-radius: 20px;
+    line-height: 47px;
+    padding: 15px;
+
+
+}
+
+input::placeholder {
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    width: 380px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-comum {
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.mostrar-sorteado {
+
+    width: 380px;
+    height: 50px;
+    font-weight: 900;
+    background-color: rgb(187, 163, 255);
+    padding: 10px;
+    border: 1px dashed gray;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
